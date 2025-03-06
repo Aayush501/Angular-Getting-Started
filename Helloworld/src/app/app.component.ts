@@ -11,4 +11,8 @@ export class AppComponent {
   title = 'Helloworld';
   message = 'Hello from BridgeLabz';
   Image = "assets/BL_logo_square_jpg.jpg";
+
+  openBridgeLabz() {
+    window.open("https://www.bridgelabz.com/", "_blank");
+  }
 }
