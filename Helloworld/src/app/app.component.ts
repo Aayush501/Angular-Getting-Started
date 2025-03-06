@@ -10,4 +10,5 @@ import { RouterOutlet } from '@angular/router';
 export class AppComponent {
   title = 'Helloworld';
   message = 'Hello from BridgeLabz';
+  Image = "assets/BL_logo_square_jpg.jpg";
 }
