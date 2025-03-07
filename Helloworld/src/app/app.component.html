@@ -1,6 +1,9 @@
 <main class="main">
-    <h1>{{message}}</h1>
+    <h1>Hello {{this.userName}} from BridgeLabz</h1>
     <img [src]="Image" class="logo" alt="image not showing" (click) = "openBridgeLabz()">
+    <div>
+        <input type="text" [(ngModel)]="userName">
+    </div>
 </main>
 
 <router-outlet />
