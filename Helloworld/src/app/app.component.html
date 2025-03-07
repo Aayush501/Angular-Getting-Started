@@ -2,7 +2,8 @@
     <h1>Hello {{this.userName}} from BridgeLabz</h1>
     <img [src]="Image" class="logo" alt="image not showing" (click) = "openBridgeLabz()">
     <div>
-        <input type="text" [(ngModel)]="userName">
+        <input (input)="onInput($event)" [(ngModel)]="userName">
+        <span class="err">{{this.nameError}}</span>
     </div>
 </main>
 
